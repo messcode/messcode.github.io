@@ -4,13 +4,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Dabiao&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-06-22T17:00:02-07:00</updated>
-    <id>https://example.com/</id>
-    <link rel="alternate" type="text/html" href="https://example.com/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
+    <updated>2020-06-22T17:03:44-07:00</updated>
+    <id>https://messcode.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://messcode.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://messcode.github.io/atom.xml" />
     <author>
             <name>Dabiao</name>
-            <uri>https://example.com/</uri>
+            <uri>https://messcode.github.io/</uri>
             
                 <email>zhang.dabiao11@gmail.com</email>
             </author>
@@ -18,8 +18,8 @@
     <generator uri="https://gohugo.io/" version="0.72.0">Hugo</generator>
         <entry>
             <title type="text">A Gentel Tutorial of Bayesian Optimization</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/a-gentle-tutorial-of-bayesian-optimization/" />
-            <id>https://example.com/posts/a-gentle-tutorial-of-bayesian-optimization/</id>
+            <link rel="alternate" type="text/html" href="https://messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization/" />
+            <id>https://messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization/</id>
             <updated>2020-06-22T13:44:17-07:00</updated>
             <published>2020-06-22T13:07:25-07:00</published>
             <author>
@@ -43,9 +43,36 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/machine-learning/" term="Machine learning" label="Machine learning" />
+                                <category scheme="https://messcode.github.io/tags/machine-learning/" term="Machine learning" label="Machine learning" />
                             
                         
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Hello World</title>
+            <link rel="alternate" type="text/html" href="https://messcode.github.io/posts/hello-world/" />
+            <id>https://messcode.github.io/posts/hello-world/</id>
+            <updated>2020-06-22T13:07:25-07:00</updated>
+            <published>2020-06-22T13:07:25-07:00</published>
+            <author>
+                    <name>Dabiao</name>
+                    <uri>https://messcode.github.io</uri>
+                    <email>zhang.dabiao11@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                
                     
                 
             
