@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Mon, 22 Jun 2020 20:39:13 -0700</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jun 2020 20:48:18 -0700</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://messcode.github.io/rss.xml" />
         
         
             <item>
                 <title>A Gentel Tutorial of Bayesian Optimization</title>
-                <link>https://messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization.html</link>
-                <guid isPermaLink="true">https://messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization.html</guid>
+                <link>https://messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization/</link>
+                <guid isPermaLink="true">https://messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization/</guid>
                 <pubDate>Mon, 22 Jun 2020 13:07:25 -0700</pubDate>
                 
                     <author>zhang.dabiao11@gmail.com (Dabiao)</author>
@@ -52,7 +52,7 @@
                                 
                                 
                                 
-                                    <category domain="https://messcode.github.io/tags/machine-learning.html">Machine learning</category>
+                                    <category domain="https://messcode.github.io/tags/machine-learning/">Machine learning</category>
                                 
                             
                         
@@ -62,8 +62,8 @@
         
             <item>
                 <title>Hello World</title>
-                <link>https://messcode.github.io/posts/hello-world.html</link>
-                <guid isPermaLink="true">https://messcode.github.io/posts/hello-world.html</guid>
+                <link>https://messcode.github.io/posts/hello-world/</link>
+                <guid isPermaLink="true">https://messcode.github.io/posts/hello-world/</guid>
                 <pubDate>Mon, 22 Jun 2020 13:07:25 -0700</pubDate>
                 
                     <author>zhang.dabiao11@gmail.com (Dabiao)</author>
