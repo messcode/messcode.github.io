@@ -8,7 +8,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Dabiao&#39;s Blog</title>
-        <link>http://messcode.github.io/</link>
+        <link>/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
         <generator>Hugo 0.72.0 https://gohugo.io/</generator>
         
@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Mon, 22 Jun 2020 17:05:12 -0700</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jun 2020 17:06:52 -0700</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="http://messcode.github.io/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="/rss.xml" />
         
         
             <item>
                 <title>A Gentel Tutorial of Bayesian Optimization</title>
-                <link>http://messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization/</link>
-                <guid isPermaLink="true">http://messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization/</guid>
+                <link>/posts/a-gentle-tutorial-of-bayesian-optimization/</link>
+                <guid isPermaLink="true">/posts/a-gentle-tutorial-of-bayesian-optimization/</guid>
                 <pubDate>Mon, 22 Jun 2020 13:07:25 -0700</pubDate>
                 
                     <author>zhang.dabiao11@gmail.com (Dabiao)</author>
@@ -52,7 +52,7 @@
                                 
                                 
                                 
-                                    <category domain="http://messcode.github.io/tags/machine-learning/">Machine learning</category>
+                                    <category domain="/tags/machine-learning/">Machine learning</category>
                                 
                             
                         
@@ -62,8 +62,8 @@
         
             <item>
                 <title>Hello World</title>
-                <link>http://messcode.github.io/posts/hello-world/</link>
-                <guid isPermaLink="true">http://messcode.github.io/posts/hello-world/</guid>
+                <link>/posts/hello-world/</link>
+                <guid isPermaLink="true">/posts/hello-world/</guid>
                 <pubDate>Mon, 22 Jun 2020 13:07:25 -0700</pubDate>
                 
                     <author>zhang.dabiao11@gmail.com (Dabiao)</author>
