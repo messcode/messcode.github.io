@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Dabiao&#39;s Blog</title>
+        <link>https://example.com/</link>
+        <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
+        <generator>Hugo 0.72.0 https://gohugo.io/</generator>
+        
+            <language>en</language>
+        
+        
+            <managingEditor>zhang.dabiao11@gmail.com (Dabiao)</managingEditor>
+        
+        
+            <webMaster>zhang.dabiao11@gmail.com (Dabiao)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+        
+        <lastBuildDate>Mon, 22 Jun 2020 17:00:02 -0700</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
+        
+        
+            <item>
+                <title>A Gentel Tutorial of Bayesian Optimization</title>
+                <link>https://example.com/posts/a-gentle-tutorial-of-bayesian-optimization/</link>
+                <guid isPermaLink="true">https://example.com/posts/a-gentle-tutorial-of-bayesian-optimization/</guid>
+                <pubDate>Mon, 22 Jun 2020 13:07:25 -0700</pubDate>
+                
+                    <author>zhang.dabiao11@gmail.com (Dabiao)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/machine-learning/">Machine learning</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
