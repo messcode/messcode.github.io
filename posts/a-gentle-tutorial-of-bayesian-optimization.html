@@ -12,13 +12,13 @@
     
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>Dabiao’s Blog</title>
+    <title>A Gentel Tutorial of Bayesian Optimization | Dabiao&#39;s Blog</title>
 
-    <link rel="stylesheet" href="./css/meme.min.53c5b3199b7cd4ffe7398ff99db64125c9a25ab9547d6a1d67ea4209fd3a8ea4.css" integrity="sha256-U8WzGZt81P/nOY/5nbZBJcmiWrlUfWodZ&#43;pCCf06jqQ=" />
+    <link rel="stylesheet" href="../css/meme.min.53c5b3199b7cd4ffe7398ff99db64125c9a25ab9547d6a1d67ea4209fd3a8ea4.css" integrity="sha256-U8WzGZt81P/nOY/5nbZBJcmiWrlUfWodZ&#43;pCCf06jqQ=" />
 
     
     
-        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js" defer></script><script src="./js/meme.min.cadec3bb2f29a907e531b46dcaad52380f397001527dea7ffffed691e9491e95.js" integrity="sha256-yt7Duy8pqQflMbRtyq1SOA85cAFSfep///7WkelJHpU="></script>
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js" defer></script><script src="../js/meme.min.cadec3bb2f29a907e531b46dcaad52380f397001527dea7ffffed691e9491e95.js" integrity="sha256-yt7Duy8pqQflMbRtyq1SOA85cAFSfep///7WkelJHpU="></script>
 
     
 
@@ -29,36 +29,38 @@
 
     <meta name="author" content="Dabiao" /><meta name="description" content="MemE is a powerful and highly customizable GoHugo theme for personal blogs." />
 
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-    <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#2a6df4" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="../icons/safari-pinned-tab.svg" color="#2a6df4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Dabiao&#39;s Blog" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="application-name" content="Dabiao&#39;s Blog" />
-    <meta name="msapplication-starturl" content="" />
+    <meta name="msapplication-starturl" content="../../" />
     <meta name="msapplication-TileColor" content="#fff" />
-    <meta name="msapplication-TileImage" content="icons/mstile-150x150.png" />
-    <link rel="manifest" href="./manifest.json" />
+    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
+    <link rel="manifest" href="../manifest.json" />
 
     
-    <link rel="alternate" type="application/atom&#43;xml" href="//messcode.github.io/atom.xml" title="Dabiao&#39;s Blog" />
-    <link rel="alternate" type="application/rss&#43;xml" href="//messcode.github.io/rss.xml" title="Dabiao&#39;s Blog" />
     
 
     
-    <link rel="canonical" href="//messcode.github.io/" />
+    <link rel="canonical" href="//messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization.html" />
     
 
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        "datePublished": "1969-07-20T20:17:43+00:00",
-        "dateModified": "2020-06-22T13:55:53-07:00",
-        "url": "//messcode.github.io/",
+        "@type": "BlogPosting",
+        "datePublished": "2020-06-22T13:07:25-07:00",
+        "dateModified": "2020-06-22T13:44:17-07:00",
+        "url": "//messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization.html",
+        "headline": "A Gentel Tutorial of Bayesian Optimization",
         "description": "MemE is a powerful and highly customizable GoHugo theme for personal blogs.",
+        "inLanguage" : "en",
+        "articleSection": "posts",
+        "wordCount":  0 ,
         "image": "//messcode.github.io/icons/apple-touch-icon.png",
         "author": {
             "@type": "Person",
@@ -69,7 +71,19 @@
             "name": "Dabiao"
         },
         "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)",
-        "name": "Dabiao’s Blog"
+        "publisher": {
+            "@type": "Organization",
+            "name": "Dabiao's Blog",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "//messcode.github.io/icons/apple-touch-icon.png"
+            },
+            "url": "//messcode.github.io/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "//messcode.github.io/"
+        }
     }
 </script>
 
@@ -83,12 +97,17 @@
 
 
 
-<meta property="og:title" content="Dabiao’s Blog" />
+<meta property="og:title" content="A Gentel Tutorial of Bayesian Optimization" />
 <meta property="og:description" content="MemE is a powerful and highly customizable GoHugo theme for personal blogs." />
-<meta property="og:url" content="//messcode.github.io/" />
+<meta property="og:url" content="//messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization.html" />
 <meta property="og:site_name" content="Dabiao&#39;s Blog" />
 <meta property="og:locale" content="en" /><meta property="og:image" content="//messcode.github.io/icons/apple-touch-icon.png" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2020-06-22T13:07:25-07:00" />
+    <meta property="article:modified_time" content="2020-06-22T13:44:17-07:00" />
+    
+    <meta property="article:section" content="posts" />
+
 
 
     
@@ -104,7 +123,7 @@
                     
     <div class="site-brand">
         
-            <a href="./" class="brand">Dabiao&#39;s Blog</a>
+            <a href="../" class="brand">Dabiao&#39;s Blog</a>
         
     </div>
 
@@ -117,17 +136,17 @@
         
         
             
-                <li class="menu-item active"><a href="./"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon home"><path d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"/></svg><span class="menu-item-name">Home</span></a>
+                <li class="menu-item"><a href="../"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon home"><path d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"/></svg><span class="menu-item-name">Home</span></a>
                 </li>
             
         
             
-                <li class="menu-item"><a href="./about/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon user-circle"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><span class="menu-item-name">About</span></a>
+                <li class="menu-item"><a href="../about/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon user-circle"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><span class="menu-item-name">About</span></a>
                 </li>
             
         
             
-                <li class="menu-item"><a href="./posts/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">archive</span></a>
+                <li class="menu-item"><a href="../posts/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">archive</span></a>
                 </li>
             
         
@@ -151,22 +170,23 @@
 
             
             
-    
-    
-    
-    
-    
-    
-        <main class="main single" id="main">
+    <main class="main single" id="main">
     <div class="main-inner">
+
         
-        
-            <article class="content post home">
-                <h2 class="post-title">
-                    <a href="./posts/a-gentle-tutorial-of-bayesian-optimization.html" class="summary-title-link">A Gentel Tutorial of Bayesian Optimization</a>
-                </h2>
+
+        <article class="content post" data-small-caps="true" data-align="default" data-type="posts" data-toc-num="true">
+
+            <h1 class="post-title">A Gentel Tutorial of Bayesian Optimization</h1>
+
+            
+
+            
                 
-                    
+            
+
+            
+                
 
 <div class="post-meta">
     
@@ -197,20 +217,145 @@
     
 </div>
 
+            
+
+            <div class="post-body">
+              
+            </div>
+
+        </article>
+
+        
+
+        
+    
+    
+        <ul class="post-copyright">
+            <li class="copyright-item author"><span class="copyright-item-text">Author</span>: <a href="http://messcode.github.io" target="_blank" rel="noopener">Dabiao</a></li>
+            
                 
-                <summary class="summary">
+                
+                
+                
+                <li class="copyright-item link"><span class="copyright-item-text">Link</span>: <a href="../posts/a-gentle-tutorial-of-bayesian-optimization.html" target="_blank" rel="noopener">//messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization.html</a></li>
+            
+            <li class="copyright-item license"><span class="copyright-item-text">License</span>: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a></li>
+            
+        </ul>
+    
+
+
+
+        
+    <div class="updated-badge-container">
+        <span title="Updated @ 2020-06-22 13:44:17 PDT" style="cursor:help">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2020-06-22</text><text x="915" y="140" textLength="650" transform="scale(.1)">2020-06-22</text></g></svg>
+        </span></div>
+
+
+
+        
+
+
+        <div class="post-share">
+
+        
+
+        <div class="share-items">
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                <div class="share-item qq">
                     
-                </summary>
+                    <a href="https://connect.qq.com/widget/shareqq/index.html?url=//messcode.github.io/posts/a-gentle-tutorial-of-bayesian-optimization.html&amp;title=A%20Gentel%20Tutorial%20of%20Bayesian%20Optimization&amp;summary=MemE%20is%20a%20powerful%20and%20highly%20customizable%20GoHugo%20theme%20for%20personal%20blogs.&amp;pics=//messcode.github.io/icons/apple-touch-icon.png&amp;site=Dabiao%27s%20Blog" title="Share on QQ" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon qq-icon"><path d="M433.754 420.445c-11.526 1.393-44.86-52.741-44.86-52.741 0 31.345-16.136 72.247-51.051 101.786 16.842 5.192 54.843 19.167 45.803 34.421-7.316 12.343-125.51 7.881-159.632 4.037-34.122 3.844-152.316 8.306-159.632-4.037-9.045-15.25 28.918-29.214 45.783-34.415-34.92-29.539-51.059-70.445-51.059-101.792 0 0-33.334 54.134-44.859 52.741-5.37-.65-12.424-29.644 9.347-99.704 10.261-33.024 21.995-60.478 40.144-105.779C60.683 98.063 108.982.006 224 0c113.737.006 163.156 96.133 160.264 214.963 18.118 45.223 29.912 72.85 40.144 105.778 21.768 70.06 14.716 99.053 9.346 99.704z"/></svg></a>
+                </div>
+            
+
+            
+
+            
+                <div class="share-item qrcode">
+                    <div class="qrcode-container" title="Share via QR Code"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon qrcode-icon"><path d="M0 224h192V32H0v192zM64 96h64v64H64V96zm192-64v192h192V32H256zm128 128h-64V96h64v64zM0 480h192V288H0v192zm64-128h64v64H64v-64zm352-64h32v128h-96v-32h-32v96h-64V288h96v32h64v-32zm0 160h32v32h-32v-32zm-64 0h32v32h-32v-32z"/></svg><div id="qrcode-img"></div>
+                    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+
+<script>
+    var typeNumber = 0;
+    var errorCorrectionLevel = 'L';
+    var qr = qrcode(typeNumber, errorCorrectionLevel);
+    qr.addData('\/\/messcode.github.io\/posts\/a-gentle-tutorial-of-bayesian-optimization.html');
+    qr.make();
+    document.getElementById('qrcode-img').innerHTML = qr.createImgTag();
+</script>
+
+                </div>
+            
+
+        </div>
+
+    </div>
+
+
+
+
+        
+    
+    
+
+
+
+        
+    
+        <div class="post-tags">
+            
                 
-            </article>
+                
+                
+                
+                    
+                    <a href="../tags/machine-learning.html" rel="tag" class="post-tags-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tag-icon"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>Machine learning</a>
+                
+            
+        </div>
+    
+
+
+
+        
+
+
+        
+
+
+        
+    
         
         
+    
+    
+    
+    
+
+
+
+        
+
+
     </div>
 </main>
 
-    
-    
-    
 
             
     <div id="back-to-top" class="back-to-top">
@@ -226,7 +371,7 @@
             
     
         <ul class="socials"><li class="socials-item">
-                    <a href="./rss.xml" target="_blank" rel="external noopener" title="RSS"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon social-icon"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg></a>
+                    <a href="../rss.xml" target="_blank" rel="external noopener" title="RSS"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon social-icon"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg></a>
                 </li><li class="socials-item">
                     <a href="mailto:reuixiy@gmail.com" target="_blank" rel="external noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon social-icon"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"/></svg></a>
                 </li><li class="socials-item">
