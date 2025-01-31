@@ -1,247 +1,94 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title : Inline TOC Demo
+title :  About me
 layout: home
 ---
 
+
 * TOC
 {:toc}
 
-
-Why?
-----
-
-Minima is the default jekyll theme.  It does most of what I want. Except I
-couldn't figure out how to put the table of contents into the sidebar.  So
-I hacked the Minima theme.  There's probably better ways to do what I want,
-but this works for me.
-
-<button class="favorite styled" type="button">
-  <a href="https://github.com/jwrr/minima-sidebar">Clone It</a>
-</button>
-
-Below is a demonstration of the inline TOC that is available in minima. It
-takes up a significant amount of above-the-fold page space.
+<!-- Container to center within the 80% main content area -->
+<div style="width: 80%; max-width: 800px; margin: 0 auto; text-align: center;">
+  <div class="profile">
+    <img src="assets/photos/chihaozhang.jpg" alt="Chihao Zhang" class="profile-image" style="width: 288px; height: 216px;margin-left: -50px">
+    <h1 style="font-size: 20px;margin-left: -150px">Chihao Zhang</h1>
+    <div class="link-bar" style="margin-top: 15px; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;margin-left: -150px">
+      <a href="https://scholar.google.com.hk/citations?user=KTcg420AAAAJ&hl=en" style="display: inline-block; min-width: 100px; text-align: center; padding: 6px 12px; font-size: 14px; background-color: #0073e6; color: white; text-decoration: none; border-radius: 5px;">Google Scholar</a>
+      <a href="https://www.researchgate.net/profile/Chihao-Zhang-4" style="display: inline-block; min-width: 100px; text-align: center; padding: 6px 12px; font-size: 14px; background-color: #00cc66; color: white; text-decoration: none; border-radius: 5px;">Researchgate</a> 
+      <a href="https://github.com/messcode" style="display: inline-block; min-width: 100px; text-align: center; padding: 6px 12px; font-size: 14px; background-color: #333; color: white; text-decoration: none; border-radius: 5px;">Github</a>  
+      <a href="mailto:zhangchihao@amss.ac.cn" style="display: inline-block; min-width: 100px; text-align: center; padding: 6px 12px; font-size: 14px; background-color: #e60000; color: white; text-decoration: none; border-radius: 5px;">Email Me</a>
+    </div>
+  </div>
+</div>
 
 
-This is an example of an inline Table of contents.  Just paste the following 
-into your page.
 
-```
-* TOC
-{:toc}
-```
+Zhang Chihao holds a Ph.D. in Operations Research and Control Theory from the Academy of Mathematics and Systems Science ([AMSS](http://english.amss.cas.cn/)), Chinese Academy of Sciences (CAS), under the supervision of Prof. Shihua Zhang. After completing his Ph.D., he served as a Postdoctoral Researcher at the [International Research Center for Neurointelligence](https://ircn.jp/en/), The University of Tokyo, under the guidance of Prof. Kazuyuki Aihara and Prof. Luonan Chen. Since 2023, he has been an Assistant Professor at AMSS, CAS. His research focuses on machine learning, statistical optimization, large-scale data analysis, and bioinformatics, with applications in developing advanced algorithms for data mining, clustering, and integration.
 
-Examples
---------
-Check out [Sidebar](/sidebar-toc), [Sidebar2](/sidebar-toc2) and [Sidebar Fixed](/sidebar-fixed) for more 
-examples.
+***
 
+# Experience
+## Working
+- **Assistant Professor**  
+  Academy of Mathematics and Systems Science (AMSS), Chinese Academy of Sciences (CAS)  
+  2023 – Present  
 
-How to Use
----------
-
-### Clone it
-If you're creating a Github.io Page for your user account then you should `git clone` and specify
-you top-level git repo, `username.github.io` where username is your Github username.
-
-```
-git clone https://github.com/jwrr/minima-sidebar username.github.io
-cd username.github.io
-```
-
-If you're creating a page for a projec then you should always specify `docs` as the repo
-destination.
-
-```
-cd your_project
-git clone https://github.com/jwrr docs
-cd docs
-```
-
-### Try it
-Run the Jekyll Server using script `JEKYLL_SERVE` and press `Ctrl+C` when done.
-
-```
-JEKYLL_SERVE
-```
-
-### Configure it
-Edit the site configuration file, `_config`, search for `FIXME` and change the 
-settings as needed.
-
-### Remove .git
-If this is your user page then skip this.  If this is a project page (in the 
-`docs` folder) then remove the `.git` folder (unless you want this as a submodule,
-which is unlikely).
-
-```
-cd docs
-rm -rf .git
-```
-
-### Git Add, Commit and Push
-Finally, It's time to wrap it up.
-
-```
-git add Gemfile.lock assets/main.scss 404.html index.markdown Gemfile README.md _config.yml _debug.yml JEKYLL_SERVE
-git commit -m "Create Github.io Page"
-git push
-
-```
+- **Postdoctoral Researcher**  
+  International Research Center for Neurointelligence, The University of Tokyo  
+  Advisors: Kazuyuki Aihara, Luonan Chen  
+  2021 – 2023 
 
 
-Jekyll Serve
-------------
+## Education
 
-You can view this repo locally with the following command (I'm assuming you've
-already installed [jekyll](https://jekyllrb.com/docs/) and cloned this repo.
+- **Ph.D. in Operations Research and Control Theory**  
+  Academy of Mathematics and Systems Science (AMSS), Chinese Academy of Sciences (CAS)  
+  Advisor: Shihua Zhang  
+  2015 – 2021  
 
-```
-jekyll serve --trace
-```
+- **Visiting Graduate Student**  
+  Department of Statistics, University of California, Los Angeles (UCLA)  
+  Advisor: Jingyi Jessica Li  
+  2020 - 2020
 
-### Load Error
-You may get an error similar to the following:
+- **Bachelor of Science in Statistics**  
+  Beijing Normal University  
+  2011 – 2015  
 
-```
-/usr/lib/ruby/2.7.0/bundler/runtime.rb:312:in `check_for_activated_spec!': You 
-have already activated rouge 3.20.0, but your Gemfile requires rouge 3.19.0. 
-Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
-```
+***
 
-This means the `gem.lock` file is out of date.  To fix run the following 
-command.  You may have to iterate multiple times if more than one gem is 
-out of date.
+## Publications
 
-```
-bundle update rouge
-```
+- **Zhang, C.**, Gai, K., & Zhang, S. (2024). [Matrix Normal PCA for Interpretable Dimension Reduction and Graphical Noise Modeling](https://doi.org/10.1016/j.patcog.2024.110591). *Pattern Recognition,* 154, 110591.  
 
-Please send me a pull request with your fix.
+- **Zhang, C.**, Dong, K., Aihara, K., Chen, L., & Zhang, S. (2023). [STAMarker: Determining Spatial Domain-specific Variable Genes with Saliency Maps in Deep Learning](https://academic.oup.com/nar/article/51/20/e103/7301277). *Nucleic Acids Research,* 51(20), e103. ([slides](assets/slides/20231021-STAMarker.pdf))
 
-### Jekyll Serve Page Not Found
-This is sometimes caused when baseurl (in _config.yml) is not correct.
-When you're working on your user page (for example jwrr.github.io) then
-baseurl should be "". When you're working on a project page (for example
-jwrr.github.io/minima-sidebar) then baseurl should be "/projname" when
-the page is publically displayed on Github.  **BUT** when the page is
-being displayed locally with `jekyll serve` the baseurl should be "".
-A script, `JEKYLL_SERVE` takes care of this for you and is recommended.
-
-```
-> JEKYLL_SERVE
-```
-
-
-Lorem Ipsum
------------
-
-You can ignore the following documentation.  I'm using the
-[Lued Text Editor](https://jwrr.github.io/lued/)
-documentation as Lorem Ipsum.
-
-
-<hr>
-
-
-What is it?
------------
-
-Lued is a text editor that runs in the console like [emacs](https://www.gnu.org/software/emacs/)
-and [vim](https://www.vim.org/).  The goal is to be comfortable 
-for Windows users.  Common Windows keystrokes are supported.  For example,
-<kbd>Ctrl+C</kbd>, <kbd>Ctrl+X</kbd>, <kbd>Ctrl+V</kbd> do copy, cut and paste, 
-respectively. <kbd>Ctrl+Z</kbd> and <kbd>Ctrl+Y</kbd> undo and redo. 
-<kbd>Ctrl+S</kbd>, <kbd>Ctrl+Q</kbd> save and quit. You move arrow using the 
-arrow keys. PgUp, PgDn, Home and End work as expected. For more advanced 
-commands, Lued attempts to be similar to [Sublime](https://www.sublimetext.com/)
-or [VScode](https://code.visualstudio.com/).  You can use the
-mouse to copy and paste and the scroll wheel lets you easily navigate up
-and down the document.
+- **Zhang, C.**, Chen, E-Y., Zhang, S., & Li, J-J. (2022). [Information-theoretic Classification Accuracy: A Data-driven Approach to Combining Ambiguous Outcome Labels](https://www.jmlr.org/papers/v23/21-1150.html). *Journal of Machine Learning Research,* 23, 1–65. ([code](https://github.com/JSB-UCLA/ITCA) \| [slides](assets/slides/ITCA_slides.pdf))
  
-Lued is compatible with most xterms such as Konsole and Gnome Terminal. It also
-works well with [PuTTy](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
-and [tmux](https://github.com/tmux/tmux).
+- **Zhang, C.**, Yang, Y., Zhou, W., & Zhang, S. (2022). [Distributed Bayesian Matrix Decomposition for Big Data Mining and Clustering](https://doi.org/10.1109/TKDE.2020.3029582). *IEEE Transactions on Knowledge and Data Engineering.* ([code](https://github.com/messcode/dbmd))  
+
+- Wang, H., **Zhang, C.**, & Zhang, S. (2021). [Robust Bayesian Matrix Decomposition with Mixture of Gaussian Noise](https://doi.org/10.1016/j.neucom.2021.04.004). *Neurocomputing.* 
+
+- **Zhang, C.**, & Zhang, S. (2021). [Bayesian Joint Matrix Decomposition for Data Integration with Heterogeneous Noise](https://ieeexplore.ieee.org/abstract/document/8864038). *IEEE Transactions on Pattern Analysis and Machine Intelligence,* 43(4), 1184–1196. 
+
+***
+
+# Talks
+
+- Information-theoretic classification accuracy: a criterion that guides data-driven combination of ambiguous outcome labels in multi-class classification (1/4/2025). **Shandong Mathematical Society Annual Academic Conference**, Qingdao, China \| [slides](assets/slides/ITCA_slides.pdf)
+
+- STAMarker: Determining spatial domain-specific variable genes with saliency maps in deep learning (10/21/2023). **The Third Mathematical and Life Science Conference**, Wuxi, China. \| [slides](assets/slides/20231021-STAMarker.pdf)
+
+# Honors and Awards
+
+- Outstanding Graduate of Beijing and Outstanding Graduate of the University of Chinese Academy of Sciences, 2021  
+- President’s Excellence Award, Chinese Academy of Sciences, 2021  
+- President’s Excellence Award, Chinese Academy of Sciences, 2020  
+- National Scholarship for Doctoral Students, 2019  
 
 
-Get it
-------
-
-Lued source code is available under the [MIT License](https://opensource.org/licenses/MIT)
-at [github.com/jwrr/lued](http://github.com/jwrr/lued).  You can download a zip file or 
-clone the repo.
-
-<button class="favorite styled" type="button">
-  <a href="https://github.com/jwrr/lued/archive/master.zip">Download Lued from Github</a>
-</button>
-
-```
-git clone https://github.com/jwrr/lued
-```
-
-Build it
---------
-
-To build Lued just run the <code>COMPILE</code> script.  The script handles downloading Lua 5.2, applying
-a few minor patches to the Lua release, running cmake and compiling lued.
-
-You will need cmake.  On Ubuntu you can install with apt-get.
-
-```
-sudo apt-get -y install cmake
-```
-
-Try it
-------
-
-```
-> ./lued filename.txt
-```
-
-
-Use it
-------
-
-You've gotten this far and you haven't turned away.  You want to know more.
-Lued offers many ways to move, select, find and delete. I recommend you first
-take a quick look at the [key bindings](/bindings).  And then dive into the
-[User Guide](/ug).
-
-
-Tweak it
------------------------
-
-You can easily change the key bindings.  The key bindings are defined in file
-`lua_src/bindings/lued_bindings.lua`.  The bindings have the format alt_xxx and
-ctrl_yyy (these are actually lua function calls but don't worry about that).  To 
-change a binding, just find it and replace it with what you want.  For example,
-say you want to change the replace to end-of-line command from <kbd>alt+XE</kbd> to
-<kbd>ctrl+K</kbd>, as it is in Emacs.  You would open the lued_bindings.lua file
-(using lued or your editor of choice), find 'alt_xe', <kbd>ctrl+F</kbd> and change
-it to 'ctrl_K'.  Now restart lued and you're good to go. BTW, <kbd>Ctrl+K</kbd>
-is not currently used, and is waiting for you to make this change.
-
-
-Extend it
----------
-
-All commands are implemented in Lua (there's some C under the hood but you'll 
-never see it... unless you want to).  Lua is an easy to learn scripting language that
-is powerful and blazingly fast.  You can modify the Lua code directly or you 
-can develop a plugin (also written in Lua).  The plugins support 
-[emmet](https://emmet.io/) snippets where you type a user-defined tag followed 
-by <kbd>Tab</kbd> and a pre-defined template is printed out.
-
-
-Fix it
-------
-
-Submit your [pull requests](https://github.com/jwrr/lued/pulls). Thanks
-
-
-<hr style="margin-top:4em;">
 
 
 
