@@ -73,4 +73,15 @@ inset 2px 2px 3px rgba(0, 0, 0, .6);
 
 .styled > a {color:#fff}
 
+.site-title {
+    color: #385492 !important; /* Change this to your preferred color */
+  }
+  
+  .site-nav a {
+    color: #385492 !important; /* Change to your preferred color */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
 /* END OF MAIN.CSS */
