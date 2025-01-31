@@ -326,6 +326,8 @@ kbd { background-color: #eee; border-radius: 3px; border: 1px solid #b4b4b4; box
 
 .site-nav a { color: #385492 !important; /* Change to your preferred color */ font-size: 16px; font-weight: bold; text-decoration: none; }
 
+.site-header { border-top: 3.5px solid #385492; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
+
 /* END OF MAIN.CSS */
 
 /*# sourceMappingURL=main.css.map */
