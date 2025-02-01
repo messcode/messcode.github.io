@@ -37,6 +37,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+#     google: G-D8BP8BYPWQ  # ✅ GA4 Measurement ID (starts with `G-`)
+
+
+# Site settings
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
