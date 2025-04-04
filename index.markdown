@@ -12,7 +12,7 @@ layout: home
 <!-- Container to center within the 80% main content area -->
 <div style="width: 80%; max-width: 800px; margin: 0 auto; text-align: center;">
   <div class="profile">
-    <img src="assets/photos/chihaozhang.jpeg" alt="Chihao Zhang" class="profile-image" style="width: 288px; height: 216px;margin-left: -50px">
+    <img src="assets/photos/chihaozhang.jpeg" alt="Chihao Zhang" class="profile-image" style="width: 288px; height: auto;margin-left: -50px">
     <h1 style="font-size: 20px;margin-left: -150px">Chihao Zhang</h1>
     <div class="link-bar" style="margin-top: 15px; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;margin-left: -150px">
       <a href="https://scholar.google.com.hk/citations?user=KTcg420AAAAJ&hl=en" style="display: inline-block; min-width: 100px; text-align: center; padding: 6px 12px; font-size: 14px; background-color: #0073e6; color: white; text-decoration: none; border-radius: 5px;">Google Scholar</a>
