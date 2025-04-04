@@ -1,0 +1,1 @@
+sudo -u solr wget -O /var/solr/data/ckan/conf/managed-schema https://raw.githubusercontent.com/ckan/ckan/dev-v2.120a0/ckan/config/solr/schema.xml
